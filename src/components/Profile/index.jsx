@@ -4,7 +4,7 @@ export default function Profile(props){
     return(
         <div className={styles.container}>
             <img src={props.img} />
-            <h1>{props.name}</h1>
+            <h3>{props.name}</h3>
             <hr />
             <p>{props.bio}</p>
             <hr />
@@ -14,7 +14,7 @@ export default function Profile(props){
             <hr />
             <button><a href={props.githubUrl}>Github</a></button>
             <button><a href={props.linkedinUrl}>Linkedin</a></button>
-            <button><a href={props.instaUrl}>Instagram</a></button>
+            <button><a href={props.twitterUrl}>Twitter</a></button>
         </div>
     )
 }
